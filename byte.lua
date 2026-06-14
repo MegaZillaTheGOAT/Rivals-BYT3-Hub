@@ -620,6 +620,6 @@ end)
 
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 
-while task.wait(1) do
+--[[while task.wait(1) do
     ReplicatedStorage.Remotes.Replication.Fighter.SetControls:FireServer("Touch")
-end
+end--]]
